@@ -34,13 +34,11 @@ public class Advanced {
         String res = "" ;
         for(int i =0 ; i< name1.length ;i++)
             res += name1[i];
-        if( last1[0] != " ")
         res += " ";
         for(int i =0 ; i< last1.length ;i++) {
-            if( last1[i] != " ")
             res += last1[i];
         }
-        return res ;
+        return res.trim() ;
 
 
     }
